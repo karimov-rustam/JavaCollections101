@@ -16,7 +16,6 @@ public class Shipment implements Iterable<Product> {
 
     void add(Product product) {
         products.add(product);
-        int splitPoint = findSplitPoint();
     }
 
     private int findSplitPoint() {
