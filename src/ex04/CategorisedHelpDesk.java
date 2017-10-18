@@ -22,7 +22,7 @@ public class CategorisedHelpDesk {
             enquiries.remove();
             enquiry.getCustomer().reply(message);
         } else {
-            System.out.println("No wort to do, let's have some coffee!");
+            System.out.println("No work to do, let's have some coffee!");
         }
     }
 
