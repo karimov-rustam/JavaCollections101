@@ -9,4 +9,8 @@ public class Product extends ex03.Product {
         super(name, weight);
         this.id = id;
     }
+
+    int getId() {
+        return id;
+    }
 }
