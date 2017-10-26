@@ -7,7 +7,7 @@ import static java.util.Comparator.comparing;
 
 public class Product {
 
-    public static final Comparator<Product> BY_NAME = comparing(Product::getName);
+    static final Comparator<Product> BY_NAME = comparing(Product::getName);
 
     static final Comparator<Product> BY_WEIGHT = comparing(Product::getWeight);
 
@@ -19,11 +19,11 @@ public class Product {
         this.weight = weight;
     }
 
-    private String getName() {
+    public String getName() {
         return name;
     }
 
-    int getWeight() {
+    public int getWeight() {
         return weight;
     }
 
